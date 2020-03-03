@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C++/1/1 course 2 term(2020)/Lab_2b.1(Unrolled linked list)/Functions.cpp
+Functions.h
+D:/C++/1/1 course 2 term(2020)/Lab_2b.1(Unrolled linked list)/Functions.h
+
+D:/C++/1/1 course 2 term(2020)/Lab_2b.1(Unrolled linked list)/Functions.h
+U_list.h
+D:/C++/1/1 course 2 term(2020)/Lab_2b.1(Unrolled linked list)/U_list.h
+
+D:/C++/1/1 course 2 term(2020)/Lab_2b.1(Unrolled linked list)/U_list.h
+vector
+-
+iostream
+-
+
+D:/C++/1/1 course 2 term(2020)/Lab_2b.1(Unrolled linked list)/main.cpp
+Functions.h
+D:/C++/1/1 course 2 term(2020)/Lab_2b.1(Unrolled linked list)/Functions.h
+

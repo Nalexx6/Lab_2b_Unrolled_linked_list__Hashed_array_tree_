@@ -1,8 +1,8 @@
-# Install script for directory: D:/C++/1/1 course 2 term(2020)/Lab_2b.1(Unrolled linked list)
+# Install script for directory: D:/C++/1/1 course 2nd term(2020)/Lab_2b(Unrolled linked list, Hashed array tree)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Lab_2b_1_Unrolled_linked_list_")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Lab_2b_Unrolled_linked_list__Hashed_array_tree_")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/C++/1/1 course 2 term(2020)/Lab_2b.1(Unrolled linked list)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/C++/1/1 course 2nd term(2020)/Lab_2b(Unrolled linked list, Hashed array tree)/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\C++\1\1 course 2 term(2020)\Lab_2b.1(Unrolled linked list)"
+CMAKE_SOURCE_DIR = "D:\C++\1\1 course 2nd term(2020)\Lab_2b(Unrolled linked list, Hashed array tree)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\C++\1\1 course 2 term(2020)\Lab_2b.1(Unrolled linked list)\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\C++\1\1 course 2nd term(2020)\Lab_2b(Unrolled linked list, Hashed array tree)\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C++\1\1 course 2 term(2020)\Lab_2b.1(Unrolled linked list)\cmake-build-debug\CMakeFiles" "D:\C++\1\1 course 2 term(2020)\Lab_2b.1(Unrolled linked list)\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C++\1\1 course 2nd term(2020)\Lab_2b(Unrolled linked list, Hashed array tree)\cmake-build-debug\CMakeFiles" "D:\C++\1\1 course 2nd term(2020)\Lab_2b(Unrolled linked list, Hashed array tree)\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C++\1\1 course 2 term(2020)\Lab_2b.1(Unrolled linked list)\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\C++\1\1 course 2nd term(2020)\Lab_2b(Unrolled linked list, Hashed array tree)\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lab_2b_1_Unrolled_linked_list_
+# Target rules for targets named Lab_2b_Unrolled_linked_list__Hashed_array_tree_
 
 # Build rule for target.
-Lab_2b_1_Unrolled_linked_list_: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Lab_2b_1_Unrolled_linked_list_
-.PHONY : Lab_2b_1_Unrolled_linked_list_
+Lab_2b_Unrolled_linked_list__Hashed_array_tree_: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Lab_2b_Unrolled_linked_list__Hashed_array_tree_
+.PHONY : Lab_2b_Unrolled_linked_list__Hashed_array_tree_
 
 # fast build rule for target.
-Lab_2b_1_Unrolled_linked_list_/fast:
-	$(MAKE) -f CMakeFiles\Lab_2b_1_Unrolled_linked_list_.dir\build.make CMakeFiles/Lab_2b_1_Unrolled_linked_list_.dir/build
-.PHONY : Lab_2b_1_Unrolled_linked_list_/fast
+Lab_2b_Unrolled_linked_list__Hashed_array_tree_/fast:
+	$(MAKE) -f CMakeFiles\Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir\build.make CMakeFiles/Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir/build
+.PHONY : Lab_2b_Unrolled_linked_list__Hashed_array_tree_/fast
 
 Functions.obj: Functions.cpp.obj
 
@@ -128,7 +128,7 @@ Functions.obj: Functions.cpp.obj
 
 # target to build an object file
 Functions.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab_2b_1_Unrolled_linked_list_.dir\build.make CMakeFiles/Lab_2b_1_Unrolled_linked_list_.dir/Functions.cpp.obj
+	$(MAKE) -f CMakeFiles\Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir\build.make CMakeFiles/Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir/Functions.cpp.obj
 .PHONY : Functions.cpp.obj
 
 Functions.i: Functions.cpp.i
@@ -137,7 +137,7 @@ Functions.i: Functions.cpp.i
 
 # target to preprocess a source file
 Functions.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab_2b_1_Unrolled_linked_list_.dir\build.make CMakeFiles/Lab_2b_1_Unrolled_linked_list_.dir/Functions.cpp.i
+	$(MAKE) -f CMakeFiles\Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir\build.make CMakeFiles/Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir/Functions.cpp.i
 .PHONY : Functions.cpp.i
 
 Functions.s: Functions.cpp.s
@@ -146,8 +146,35 @@ Functions.s: Functions.cpp.s
 
 # target to generate assembly for a file
 Functions.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab_2b_1_Unrolled_linked_list_.dir\build.make CMakeFiles/Lab_2b_1_Unrolled_linked_list_.dir/Functions.cpp.s
+	$(MAKE) -f CMakeFiles\Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir\build.make CMakeFiles/Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir/Functions.cpp.s
 .PHONY : Functions.cpp.s
+
+Mode.obj: Mode.cpp.obj
+
+.PHONY : Mode.obj
+
+# target to build an object file
+Mode.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir\build.make CMakeFiles/Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir/Mode.cpp.obj
+.PHONY : Mode.cpp.obj
+
+Mode.i: Mode.cpp.i
+
+.PHONY : Mode.i
+
+# target to preprocess a source file
+Mode.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir\build.make CMakeFiles/Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir/Mode.cpp.i
+.PHONY : Mode.cpp.i
+
+Mode.s: Mode.cpp.s
+
+.PHONY : Mode.s
+
+# target to generate assembly for a file
+Mode.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir\build.make CMakeFiles/Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir/Mode.cpp.s
+.PHONY : Mode.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -155,7 +182,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab_2b_1_Unrolled_linked_list_.dir\build.make CMakeFiles/Lab_2b_1_Unrolled_linked_list_.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir\build.make CMakeFiles/Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +191,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab_2b_1_Unrolled_linked_list_.dir\build.make CMakeFiles/Lab_2b_1_Unrolled_linked_list_.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir\build.make CMakeFiles/Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +200,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab_2b_1_Unrolled_linked_list_.dir\build.make CMakeFiles/Lab_2b_1_Unrolled_linked_list_.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir\build.make CMakeFiles/Lab_2b_Unrolled_linked_list__Hashed_array_tree_.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -182,12 +209,15 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Lab_2b_1_Unrolled_linked_list_
+	@echo ... Lab_2b_Unrolled_linked_list__Hashed_array_tree_
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Functions.obj
 	@echo ... Functions.i
 	@echo ... Functions.s
+	@echo ... Mode.obj
+	@echo ... Mode.i
+	@echo ... Mode.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
